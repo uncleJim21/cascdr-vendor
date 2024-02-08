@@ -2,9 +2,7 @@
   "name": "databuffet",
   "private": true,
   "scripts": {
-    "cascdr-vendor": "bun run apps/server/index.ts",
-    "cascdr-vendor-test": "bun run apps/server/tests/testChatGPT.ts",
-    "nip105-viewer": "cd apps/viewer && bun run dev"
+    "cascdr-vendor": "bun run apps/server/index.ts"
   },
   "devDependencies": {
     "bun-types": "latest"
@@ -12,7 +10,6 @@
   "workspaces": [
     "packages/utils",
     "packages/nip105",
-    "apps/viewer",
     "apps/server"
   ],
   "peerDependencies": {

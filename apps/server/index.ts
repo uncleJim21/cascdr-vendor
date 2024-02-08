@@ -217,7 +217,10 @@ APP.listen(SERVER_PORT, () => {
 //TODO UPDATE Periodically
 
 const RELAYS = [
-  'wss://dev.nostrplayground.com'
+  'wss://dev.nostrplayground.com',
+  'wss://nostr.kungfu-g.rip/',
+  'wss://nostr.lnproxy.org',
+  'wss://relay.wavlake.com'
 ];
 const POOL = new SimplePool()
 

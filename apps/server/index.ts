@@ -25,7 +25,7 @@ import {
   getAllServiceEvents,
 } from "./services";
 import { sleep } from "bun";
-import { getPrivateKey, postServices } from "./nostr";
+import { postServices } from "./nostr";
 import { checkServicePayment, getServiceInvoice, getServiceResult } from "./server";
 import { bech32 } from 'bech32';
 
